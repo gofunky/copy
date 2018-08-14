@@ -1,14 +1,13 @@
 # copy
 
-[![Build Status](https://travis-ci.org/otiai10/copy.svg?branch=master)](https://travis-ci.org/otiai10/copy)
-[![codecov](https://codecov.io/gh/otiai10/copy/branch/master/graph/badge.svg)](https://codecov.io/gh/otiai10/copy)
-[![GoDoc](https://godoc.org/github.com/otiai10/copy?status.svg)](https://godoc.org/github.com/otiai10/copy)
-[![Go Report Card](https://goreportcard.com/badge/github.com/otiai10/copy)](https://goreportcard.com/report/github.com/otiai10/copy)
+[![Build Status](https://travis-ci.org/gofunky/copy.svg?branch=master)](https://travis-ci.org/gofunky/copy)
+[![GoDoc](https://godoc.org/github.com/gofunky/copy?status.svg)](https://godoc.org/github.com/gofunky/copy)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gofunky/copy)](https://goreportcard.com/report/github.com/gofunky/copy)
 
 `copy` copies directories recursively.
 
 Example:
 
 ```go
-err := Copy("your/directory", "your/directory.copy")
+err := copy.Copy("your/directory", "your/directory.copy")
 ```
